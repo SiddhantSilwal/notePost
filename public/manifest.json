@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+  "manifest_version": 2,
   "name": "notePost",
   "author": "Siddhant Silwal",
   "version": "1.0.0", 
@@ -10,11 +10,9 @@
     "128": "notepost128.png"
   },
 
-  "default_popup": "popup.html"
-},
+  "browser_action": {
+    
+    "default_popup": "index.html" 
+  }
 
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
 }
